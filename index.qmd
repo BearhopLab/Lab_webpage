@@ -1,0 +1,21 @@
+---
+title: "Bearhop Lab"
+image: media/320.jpg
+toc: false
+about: 
+  template: jolla
+  links:
+    - text: Profile
+      href: https://experts.exeter.ac.uk/1068-stu-bearhop
+    - text: Email
+      href: mailto:S.Bearhop@exeter.ac.uk
+---
+
+## About the group:
+
+We are ecologist with a range of interests mainly related to migration and foraging ecology of vertebrates (particularly birds) and the application of stable isotope techniques in animal ecology.
+
+
+## Interests:
+
+Our research focuses on spatial and trophic ecology of animals, with a particular interest in the causes and consequences of intra-population variation in movement and foraging behaviours. We also work on applications of stable isotope techniques.

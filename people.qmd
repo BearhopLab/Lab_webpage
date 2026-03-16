@@ -1,0 +1,369 @@
+---
+title: "People"
+---
+
+
+```{=html}
+<style>
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: start;
+}
+
+/* Card style */
+
+.person {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.person:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.person img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.person summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.person summary::-webkit-details-marker {
+  display: none;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 1.1em;
+  margin-top: 12px;
+}
+
+.dropdown {
+  margin-top: 6px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.arrow {
+  font-size: 0.9em;
+}
+
+details[open] .arrow {
+  transform: rotate(180deg);
+  display: inline-block;
+}
+
+.bio {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+</style>
+```
+
+
+
+:::::::::::: people-grid
+
+<details class="person">
+
+<summary>
+
+![](media/Stu thumbnail.jpg)
+
+::: name
+Stuart Bearhop
+:::
+
+::: dropdown
+View bio [▼]{.arrow}
+:::
+
+</summary>
+
+::: bio
+
+
+**About me:**
+
+I am an ecologist with a range of interests mainly related to migration and foraging ecology of vertebrates (particularly birds) and the application of stable isotope techniques in animal ecology. I am a member of the Ecology and Conservation research group. am the Associate Pro-Vice-Chancellor, Global Engagement for the The Faculty of Environment, Science and Economy.
+
+**Interests:**
+
+My research focuses on spatial and trophic ecology of animals, with a particular interest in the causes and consequences of intra-population variation in movement and foraging behaviours. I also work on applications of stable isotope techniques. My research group works at field sites all over the world: UK, Ireland, Iceland, Iberia, Canadian Arctic, North Atlantic, west Africa, Kenya, Hong Kong, China
+
+:::
+
+</details>
+
+
+
+
+<details class="person">
+
+<summary>
+
+![](media/320.jpg)
+
+::: name
+Aimee McIntosh
+:::
+
+::: dropdown
+View bio [▼]{.arrow}
+:::
+
+</summary>
+
+::: bio
+
+**Post Doctoral Researcher**
+
+:::
+
+</details>
+
+
+
+
+<details class="person">
+
+<summary>
+
+![](media/320.jpg)
+
+::: name
+Luke Ozsanlav-Harris
+:::
+
+::: dropdown
+View bio [▼]{.arrow}
+:::
+
+</summary>
+
+::: bio
+
+**Post Doctoral Researcher**
+
+I am an ecologist with a broad interest in ornithology, animal movement, and applied ecological research. I am currently a Postdoctoral Research Associate at the University of Exeter, where my work focuses on understanding how birds move through, respond to, and persist in changing environments. Outside of research, I am an active birder and regularly document my observations locally and further afield, with photographs and checklists available on my eBird profile.
+
+Email: l.ozsanlav-harris2@exeter.ac.uk
+
+:::
+
+</details>
+
+
+
+
+
+<details class="person">
+
+<summary>
+
+![](media/320.jpg)
+
+::: name
+Steph Trapp
+:::
+
+::: dropdown
+View bio [▼]{.arrow}
+:::
+
+</summary>
+
+::: bio
+
+**Research Assistant**
+
+:::
+
+</details>
+
+
+
+
+<details class="person">
+
+<summary>
+
+![](media/320.jpg)
+
+::: name
+Lucy Williamson
+:::
+
+::: dropdown
+View bio [▼]{.arrow}
+:::
+
+</summary>
+
+::: bio
+
+**PhD Student**
+
+:::
+
+</details>
+
+
+
+
+
+<details class="person">
+
+<summary>
+
+![](media/320.jpg)
+
+::: name
+Debs Allbrook
+:::
+
+::: dropdown
+View bio [▼]{.arrow}
+:::
+
+</summary>
+
+::: bio
+
+**PhD Student**
+
+:::
+
+</details>
+
+
+
+
+<details class="person">
+
+<summary>
+
+![](media/320.jpg)
+
+::: name
+Vance Mak
+:::
+
+::: dropdown
+View bio [▼]{.arrow}
+:::
+
+</summary>
+
+::: bio
+
+**PhD Student**
+
+:::
+
+</details>
+
+
+
+
+
+<details class="person">
+
+<summary>
+
+![](media/320.jpg)
+
+::: name
+Kate Mighell
+:::
+
+::: dropdown
+View bio [▼]{.arrow}
+:::
+
+</summary>
+
+::: bio
+
+**PhD Student**
+
+:::
+
+</details>
+
+
+
+
+
+<details class="person">
+
+<summary>
+
+![](media/320.jpg)
+
+::: name
+Gavin Kellerman
+:::
+
+::: dropdown
+View bio [▼]{.arrow}
+:::
+
+</summary>
+
+::: bio
+
+**PhD Student**
+
+:::
+
+</details>
+
+
+
+
+<details class="person">
+
+<summary>
+
+![](media/320.jpg)
+
+::: name
+Maddie Kirby
+:::
+
+::: dropdown
+View bio [▼]{.arrow}
+:::
+
+</summary>
+
+::: bio
+
+**MbyRes Student**
+
+Email: mek212@exeter.ac.uk
+
+:::
+
+</details>
+
+
+
+::::::::::::

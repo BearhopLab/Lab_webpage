@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Bearhop Lab"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - people.qmd
+      - publications.qmd
+
+format:
+  html:
+    theme:
+      light: sandstone
+      dark: solar
+    css: styles.css
+    toc: true
+    page-layout: full
+
+
+
