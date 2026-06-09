@@ -1,4 +1,4 @@
 # Bearhop Lab Webpage
 
 
-Help with creating webpage: https://ucsb-meds.github.io/creating-quarto-websites/
+Access webpage here: https://bearhoplab.github.io/Lab_webpage/
