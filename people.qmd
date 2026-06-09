@@ -84,7 +84,7 @@ details[open] .arrow {
 
 <summary>
 
-![](media/Stu thumbnail.jpg)
+![](images/headshots/Stu thumbnail.jpg)
 
 ::: name
 Stuart Bearhop
@@ -98,14 +98,17 @@ View bio [▼]{.arrow}
 
 ::: bio
 
+**Principal Investigator**
 
 **About me:**
 
-I am an ecologist with a range of interests mainly related to migration and foraging ecology of vertebrates (particularly birds) and the application of stable isotope techniques in animal ecology. I am a member of the Ecology and Conservation research group. am the Associate Pro-Vice-Chancellor, Global Engagement for the The Faculty of Environment, Science and Economy.
+I am an ecologist with a range of interests mainly related to migration and foraging ecology of vertebrates (particularly birds) and the application of stable isotope techniques in animal ecology. I am a member of the Ecology and Conservation research group. I am the Associate Pro-Vice-Chancellor, Global Engagement for the The Faculty of Environment, Science and Economy.
 
 **Interests:**
 
 My research focuses on spatial and trophic ecology of animals, with a particular interest in the causes and consequences of intra-population variation in movement and foraging behaviours. I also work on applications of stable isotope techniques. My research group works at field sites all over the world: UK, Ireland, Iceland, Iberia, Canadian Arctic, North Atlantic, west Africa, Kenya, Hong Kong, China
+
+Email: S.Bearhop@exeter.ac.uk
 
 :::
 
@@ -118,7 +121,7 @@ My research focuses on spatial and trophic ecology of animals, with a particular
 
 <summary>
 
-![](media/320.jpg)
+![](images/headshots/AM.jpg)
 
 ::: name
 Aimee McIntosh
@@ -134,6 +137,18 @@ View bio [▼]{.arrow}
 
 **Post Doctoral Researcher**
 
+Aimée is an ecologist with a broad interest animal movement, in particular the movement and foraging ecology of migratory species, and how this can be applied to inform conservation and management of these species. 
+
+Aimée is currently a Postdoctoral research fellow at the University of Exeter where her research is aims to determine the causes and consequences of variation in physiological transformations of migratory geese funded by NERC.
+
+During her PhD she assessed the impact of shooting management on the movement and foraging behaviour of the East Greenland flyway population of barnacle geese. She also worked with the AEWA European Goose Management Group to develop an integrated population model, to assess the demographic impact of cumulative shooting off take to inform the flyway-scale international management strategy.  
+
+Email: a.l.s.mcintosh@exeter.ac.uk
+
+[Google scholar](https://scholar.google.co.uk/citations?user=W67Z2DgAAAAJ&hl=en&oi=ao)
+
+[Orcid ID](https://orcid.org/0000-0002-4975-3682)
+
 :::
 
 </details>
@@ -145,7 +160,7 @@ View bio [▼]{.arrow}
 
 <summary>
 
-![](media/320.jpg)
+![](images/headshots/LOH.jpg)
 
 ::: name
 Luke Ozsanlav-Harris
@@ -165,6 +180,8 @@ I am an ecologist with a broad interest in ornithology, animal movement, and app
 
 Email: l.ozsanlav-harris2@exeter.ac.uk
 
+[Google Scholar](https://scholar.google.com/citations?user=9VyBol4AAAAJ&hl=en)
+
 :::
 
 </details>
@@ -177,7 +194,7 @@ Email: l.ozsanlav-harris2@exeter.ac.uk
 
 <summary>
 
-![](media/320.jpg)
+![](images/headshots/ST.jpg)
 
 ::: name
 Steph Trapp
@@ -192,6 +209,9 @@ View bio [▼]{.arrow}
 ::: bio
 
 **Research Assistant**
+Steph recently completed a PhD to understand the drivers and consequences of winter movement patterns and habitat use in wading birds, particularly the use of urban amenity grasslands in north Dublin. Her PhD was funded by Fingal County Council and involved GPS tracking four species of wading bird in and around Dublin Bay Biosphere. 
+
+Email: st553@exeter.ac.uk
 
 :::
 
@@ -204,7 +224,7 @@ View bio [▼]{.arrow}
 
 <summary>
 
-![](media/320.jpg)
+![](images/headshots/LW.jpg)
 
 ::: name
 Lucy Williamson
@@ -220,6 +240,16 @@ View bio [▼]{.arrow}
 
 **PhD Student**
 
+Lucy is a second year PhD student carrying out a joint degree between the University of Exeter and University of Queensland (QUEX). Her research is focused on understanding population-level change in migratory birds over time and deriving strategies for their conservation. Using global citizen science data, eBird, she is researching how population dynamics are related to migratory strategies and anthropogenic change. She has broad interests in migratory species, ornithology, and applied conservation research. 
+
+Email: lw829@exeter.ac.uk
+
+[Univeristy profile](https://experts.exeter.ac.uk/44984-lucy-williamson)
+
+[ORCID ID](https://orcid.org/0009-0006-6319-5310)
+
+[Blusky](https://bsky.app/profile/lucywilliamson.bsky.social)
+
 :::
 
 </details>
@@ -232,7 +262,7 @@ View bio [▼]{.arrow}
 
 <summary>
 
-![](media/320.jpg)
+![](images/headshots/DB.jpg)
 
 ::: name
 Debs Allbrook
@@ -248,6 +278,10 @@ View bio [▼]{.arrow}
 
 **PhD Student**
 
+Debs studies the ecology of Kittiwakes nesting on offshore platforms (in partnership with RSK Biocensus). 
+
+Email: dla205@exeter.ac.uk
+
 :::
 
 </details>
@@ -259,7 +293,7 @@ View bio [▼]{.arrow}
 
 <summary>
 
-![](media/320.jpg)
+![](images/headshots/VM.jpg)
 
 ::: name
 Vance Mak
@@ -275,6 +309,10 @@ View bio [▼]{.arrow}
 
 **PhD Student**
 
+Vance currently works at University of Exeter's Environment and Sustainability Institute under the supervision of Dr. Richard Sherley, Professor Stu Bearhop, and Dr. Alice Trevail at the University of Exeter, as well as partners in Bangor University (Professor Simon Neill), the Zoological Society of London (Dr. Catharine Horswill), and the Crown Estate (Sion Roberts). His research focuses on interactions between kittiwakes throughout the North Atlantic and offshore wind, with emphasis on animal movement data, ecological niche modelling, ocean and climate projection modelling, impact assessment analysis, and marine spatial planning.
+
+Email: vm325@exeter.ac.uk
+
 :::
 
 </details>
@@ -287,7 +325,7 @@ View bio [▼]{.arrow}
 
 <summary>
 
-![](media/320.jpg)
+![](images/headshots/KM.jpeg)
 
 ::: name
 Kate Mighell
@@ -303,67 +341,13 @@ View bio [▼]{.arrow}
 
 **PhD Student**
 
-:::
+Kate is a PhD student at the University of Exeter looking at the impacts of insect declines on bird populations. She is interested in understanding if insects are driving the differences between different bird populations and how birds can mitigate insect losses. Her broader interest are drivers of population changes and trophic cascades. Outside of work she is regularly involved in bird ringing.
 
-</details>
-
-
-
-
-
-<details class="person">
-
-<summary>
-
-![](media/320.jpg)
-
-::: name
-Gavin Kellerman
-:::
-
-::: dropdown
-View bio [▼]{.arrow}
-:::
-
-</summary>
-
-::: bio
-
-**PhD Student**
+Email: km961@exeter.ac.uk
 
 :::
 
 </details>
-
-
-
-
-<details class="person">
-
-<summary>
-
-![](media/320.jpg)
-
-::: name
-Maddie Kirby
-:::
-
-::: dropdown
-View bio [▼]{.arrow}
-:::
-
-</summary>
-
-::: bio
-
-**MbyRes Student**
-
-Email: mek212@exeter.ac.uk
-
-:::
-
-</details>
-
 
 
 ::::::::::::

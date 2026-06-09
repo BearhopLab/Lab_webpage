@@ -4,12 +4,21 @@ project:
 
 website:
   title: "Bearhop Lab"
+  favicon: images/brent_goose_head_up.png
   navbar:
+    logo: images/brent_goose_head_up.png
     left:
       - href: index.qmd
         text: Home
-      - people.qmd
-      - publications.qmd
+      - href: people.qmd
+        text: People      
+      - href: research/index.qmd
+        text: Projects
+      - href: publications.qmd
+        text: Publications
+  page-footer: 
+    right:
+      - text: "© 2026 Bearhop Group | All rights reserved"
 
 format:
   html:

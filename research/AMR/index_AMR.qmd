@@ -1,0 +1,36 @@
+---
+title: "Antimicrobial Resistance gene dynamics in wild birds"
+image: ../../images/320.jpg
+csl: ../../apa-cv.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
+order: 2
+---
+
+
+### Aims
+
+Work in progress
+
+
+### Previous publications
+
+:::: {.callout-tip collapse="true" appearance="minimal"}
+##### Microbiome dynamics
+
+[@marsh2024]
+
+[@jones2023]
+
+::::
+
+::: {.columns}
+::: {.column width="50%"}
+![](../../images/320.jpg)
+:::
+
+::: {.column width="50%"}
+![](../../images/AMR-Network-Logo.jpg)
+:::
+:::

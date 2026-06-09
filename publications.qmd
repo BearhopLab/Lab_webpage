@@ -1,4 +1,64 @@
 ---
 title: "Publications"
+bibliography: publications.bib
+csl: apa-cv.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
 ---
 
+### 2026
+
+[@patterson2026]
+
+### 2025
+
+[@delahay2025]
+
+### 2024
+
+[@ozsanlav-harris2024]
+
+[@marsh2024]
+
+[@mcintosh2024]
+
+[@bell2024]
+
+### 2023
+
+[@jones2023]
+
+[@downing2023]
+
+[@ozsanlav-harris2023]
+
+[@mcintosh2023]
+
+[@ozsanlav-harris2023a]
+
+[@mcintosh2023a]
+
+[@soriano-redondo2023]
+
+[@langley2022]
+
+### 2022
+
+[@lee2022]
+
+[@evans2022]
+
+[@ozsanlav-harris2022]
+
+[@swan2022]
+
+[@bell2021]
+
+[@weegman2021]
+
+[@newth2021]
+
+[@handby2022]
+
+### 2021

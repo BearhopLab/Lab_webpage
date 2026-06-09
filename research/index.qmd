@@ -1,0 +1,13 @@
+---
+title: "Projects"
+listing:
+  id: research
+  type: grid
+  sort:
+  - "order"
+  fields: [image, title]
+  grid-columns: 2
+  image-height: 400px
+page-layout: full
+css: styles.css
+---

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>People – Bearhop Lab</title>
+<title>Projects – Bearhop Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/brent_goose_head_up.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-df479d6c4d77d0e0dfbcb5361179d7fd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d9598b56567d6db39481eb32cff34dbe.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/brent_goose_head_up.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-df479d6c4d77d0e0dfbcb5361179d7fd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-d9598b56567d6db39481eb32cff34dbe.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,8 +71,67 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-research .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-research'] = new List('listing-research', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -81,10 +142,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/brent_goose_head_up.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/brent_goose_head_up.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Bearhop Lab</span>
     </a>
   </div>
@@ -95,19 +156,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./people.html" aria-current="page"> 
+    <a class="nav-link" href="../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research/index.html"> 
+    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
 </ul>
@@ -130,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">People</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
@@ -147,220 +208,73 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<style>
-
-.people-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  align-items: start;
-}
-
-/* Card style */
-
-.person {
-  background: white;
-  border-radius: 12px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.person:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
-}
-
-.person img {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.person summary {
-  list-style: none;
-  cursor: pointer;
-}
-
-.person summary::-webkit-details-marker {
-  display: none;
-}
-
-.name {
-  font-weight: 600;
-  font-size: 1.1em;
-  margin-top: 12px;
-}
-
-.dropdown {
-  margin-top: 6px;
-  font-size: 0.9em;
-  color: #666;
-}
-
-.arrow {
-  font-size: 0.9em;
-}
-
-details[open] .arrow {
-  transform: rotate(180deg);
-  display: inline-block;
-}
-
-.bio {
-  margin-top: 15px;
-  text-align: left;
-  font-size: 0.95em;
-  line-height: 1.5;
-}
-
-</style>
-<div class="people-grid">
-<details class="person">
-<summary>
-<p><img src="images/headshots/Stu thumbnail.jpg" class="img-fluid"></p>
-<div class="name">
-<p>Stuart Bearhop</p>
-</div>
-<div class="dropdown">
-<p>View bio <span class="arrow">▼</span></p>
-</div>
-</summary>
-<div class="bio">
-<p><strong>Principal Investigator</strong></p>
-<p><strong>About me:</strong></p>
-<p>I am an ecologist with a range of interests mainly related to migration and foraging ecology of vertebrates (particularly birds) and the application of stable isotope techniques in animal ecology. I am a member of the Ecology and Conservation research group. I am the Associate Pro-Vice-Chancellor, Global Engagement for the The Faculty of Environment, Science and Economy.</p>
-<p><strong>Interests:</strong></p>
-<p>My research focuses on spatial and trophic ecology of animals, with a particular interest in the causes and consequences of intra-population variation in movement and foraging behaviours. I also work on applications of stable isotope techniques. My research group works at field sites all over the world: UK, Ireland, Iceland, Iberia, Canadian Arctic, North Atlantic, west Africa, Kenya, Hong Kong, China</p>
-<p>Email: S.Bearhop@exeter.ac.uk</p>
-</div>
-</details>
-<details class="person">
-<summary>
-<p><img src="images/headshots/AM.jpg" class="img-fluid"></p>
-<div class="name">
-<p>Aimee McIntosh</p>
-</div>
-<div class="dropdown">
-<p>View bio <span class="arrow">▼</span></p>
-</div>
-</summary>
-<div class="bio">
-<p><strong>Post Doctoral Researcher</strong></p>
-<p>Aimée is an ecologist with a broad interest animal movement, in particular the movement and foraging ecology of migratory species, and how this can be applied to inform conservation and management of these species.</p>
-<p>Aimée is currently a Postdoctoral research fellow at the University of Exeter where her research is aims to determine the causes and consequences of variation in physiological transformations of migratory geese funded by NERC.</p>
-<p>During her PhD she assessed the impact of shooting management on the movement and foraging behaviour of the East Greenland flyway population of barnacle geese. She also worked with the AEWA European Goose Management Group to develop an integrated population model, to assess the demographic impact of cumulative shooting off take to inform the flyway-scale international management strategy.</p>
-<p>Email: a.l.s.mcintosh@exeter.ac.uk</p>
-<p><a href="https://scholar.google.co.uk/citations?user=W67Z2DgAAAAJ&amp;hl=en&amp;oi=ao">Google scholar</a></p>
-<p><a href="https://orcid.org/0000-0002-4975-3682">Orcid ID</a></p>
-</div>
-</details>
-<details class="person">
-<summary>
-<p><img src="images/headshots/LOH.jpg" class="img-fluid"></p>
-<div class="name">
-<p>Luke Ozsanlav-Harris</p>
-</div>
-<div class="dropdown">
-<p>View bio <span class="arrow">▼</span></p>
-</div>
-</summary>
-<div class="bio">
-<p><strong>Post Doctoral Researcher</strong></p>
-<p>I am an ecologist with a broad interest in ornithology, animal movement, and applied ecological research. I am currently a Postdoctoral Research Associate at the University of Exeter, where my work focuses on understanding how birds move through, respond to, and persist in changing environments. Outside of research, I am an active birder and regularly document my observations locally and further afield, with photographs and checklists available on my eBird profile.</p>
-<p>Email: l.ozsanlav-harris2@exeter.ac.uk</p>
-<p><a href="https://scholar.google.com/citations?user=9VyBol4AAAAJ&amp;hl=en">Google Scholar</a></p>
-</div>
-</details>
-<details class="person">
-<summary>
-<p><img src="images/headshots/ST.jpg" class="img-fluid"></p>
-<div class="name">
-<p>Steph Trapp</p>
-</div>
-<div class="dropdown">
-<p>View bio <span class="arrow">▼</span></p>
-</div>
-</summary>
-<div class="bio">
-<p><strong>Research Assistant</strong> Steph recently completed a PhD to understand the drivers and consequences of winter movement patterns and habitat use in wading birds, particularly the use of urban amenity grasslands in north Dublin. Her PhD was funded by Fingal County Council and involved GPS tracking four species of wading bird in and around Dublin Bay Biosphere.</p>
-<p>Email: st553@exeter.ac.uk</p>
-</div>
-</details>
-<details class="person">
-<summary>
-<p><img src="images/headshots/LW.jpg" class="img-fluid"></p>
-<div class="name">
-<p>Lucy Williamson</p>
-</div>
-<div class="dropdown">
-<p>View bio <span class="arrow">▼</span></p>
-</div>
-</summary>
-<div class="bio">
-<p><strong>PhD Student</strong></p>
-<p>Lucy is a second year PhD student carrying out a joint degree between the University of Exeter and University of Queensland (QUEX). Her research is focused on understanding population-level change in migratory birds over time and deriving strategies for their conservation. Using global citizen science data, eBird, she is researching how population dynamics are related to migratory strategies and anthropogenic change. She has broad interests in migratory species, ornithology, and applied conservation research.</p>
-<p>Email: lw829@exeter.ac.uk</p>
-<p><a href="https://experts.exeter.ac.uk/44984-lucy-williamson">Univeristy profile</a></p>
-<p><a href="https://orcid.org/0009-0006-6319-5310">ORCID ID</a></p>
-<p><a href="https://bsky.app/profile/lucywilliamson.bsky.social">Blusky</a></p>
-</div>
-</details>
-<details class="person">
-<summary>
-<p><img src="images/headshots/DB.jpg" class="img-fluid"></p>
-<div class="name">
-<p>Debs Allbrook</p>
-</div>
-<div class="dropdown">
-<p>View bio <span class="arrow">▼</span></p>
-</div>
-</summary>
-<div class="bio">
-<p><strong>PhD Student</strong></p>
-<p>Debs studies the ecology of Kittiwakes nesting on offshore platforms (in partnership with RSK Biocensus).</p>
-<p>Email: dla205@exeter.ac.uk</p>
-</div>
-</details>
-<details class="person">
-<summary>
-<p><img src="images/headshots/VM.jpg" class="img-fluid"></p>
-<div class="name">
-<p>Vance Mak</p>
-</div>
-<div class="dropdown">
-<p>View bio <span class="arrow">▼</span></p>
-</div>
-</summary>
-<div class="bio">
-<p><strong>PhD Student</strong></p>
-<p>Vance currently works at University of Exeter’s Environment and Sustainability Institute under the supervision of Dr.&nbsp;Richard Sherley, Professor Stu Bearhop, and Dr.&nbsp;Alice Trevail at the University of Exeter, as well as partners in Bangor University (Professor Simon Neill), the Zoological Society of London (Dr.&nbsp;Catharine Horswill), and the Crown Estate (Sion Roberts). His research focuses on interactions between kittiwakes throughout the North Atlantic and offshore wind, with emphasis on animal movement data, ecological niche modelling, ocean and climate projection modelling, impact assessment analysis, and marine spatial planning.</p>
-<p>Email: vm325@exeter.ac.uk</p>
-</div>
-</details>
-<details class="person">
-<summary>
-<p><img src="images/headshots/KM.jpeg" class="img-fluid"></p>
-<div class="name">
-<p>Kate Mighell</p>
-</div>
-<div class="dropdown">
-<p>View bio <span class="arrow">▼</span></p>
-</div>
-</summary>
-<div class="bio">
-<p><strong>PhD Student</strong></p>
-<p>Kate is a PhD student at the University of Exeter looking at the impacts of insect declines on bird populations. She is interested in understanding if insects are driving the differences between different bird populations and how birds can mitigate insect losses. Her broader interest are drivers of population changes and trophic cascades. Outside of work she is regularly involved in bird ringing.</p>
-<p>Email: km961@exeter.ac.uk</p>
-</div>
-</details>
-</div>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-research">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1780918265488" data-listing-reading-time-sort="2" data-listing-word-count-sort="368">
+<a href="../research/Transformers/index_Transformers.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/XrayEG.jpg" class="thumbnail-image card-img" style="height: 400px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The causes and consequences of body transformations in long distance migrants
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1780921895945" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+<a href="../research/AMR/index_AMR.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/320.jpg" class="thumbnail-image card-img" style="height: 400px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Antimicrobial Resistance gene dynamics in wild birds
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1780923102135" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+<a href="../research/Insect_Declines/index_InsectDeclines.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/RSPB logo.jpg" class="thumbnail-image card-img" style="height: 400px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Understanding population declines in Insectiverous birds
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1780923093383" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<a href="../research/Kittiwake/index_Kittiwake.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/Kittiwake.jpg" class="thumbnail-image card-img" style="height: 400px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Understading offshore distributions of Black-legged Kittiwakes
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

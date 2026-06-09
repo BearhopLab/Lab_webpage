@@ -1,0 +1,26 @@
+---
+title: "Understading offshore distributions of Black-legged Kittiwakes"
+image: ../../images/Kittiwake.jpg
+csl: ../../apa-cv.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
+order: 4
+---
+
+**Aims:**
+
+Work in progress
+
+:::: {.callout-tip collapse="true" appearance="minimal"}
+##### Key publications
+
+::: {style="font-size:16px"}
+[@delahay2025]
+:::
+::::
+
+::::: columns
+::: {.column width="50%"}
+![](../../images/Kittiwake.jpg)
+:::

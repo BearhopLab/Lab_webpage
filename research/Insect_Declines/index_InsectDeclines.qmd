@@ -1,0 +1,26 @@
+---
+title: "Understanding population declines in insectiverous birds"
+image: ../../images/RSPB logo2.png
+csl: ../../apa-cv.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
+order: 3
+---
+
+ 
+**Aims:**
+
+Work in progress
+
+
+
+::: {.columns}
+::: {.column width="50%"}
+![](../../images/RSPB logo.jpg)
+:::
+
+::: {.columns}
+::: {.column width="50%"}
+![](../../images/House-Martin-in-flight.jpg)
+:::

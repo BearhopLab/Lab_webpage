@@ -1,1 +1,10 @@
-/* css styles */
+#research .listing-item,
+#research .quarto-grid-item {
+  min-height: 450px !important;
+}
+
+#research .listing-item img {
+  height: 450px !important;
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,28 @@
+---
+title: "Projects"
+csl: apa-cv.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
+---
+
+
+### Building flying machines from feeding machines: causes and consequences of body transformations in long distance migrants
+
+::: column-margin
+![Brent Goose](images/320.jpg)
+:::
+
+::: column-margin
+![](images/IcelandGroup.jpeg){width="80%"}
+:::
+
+INSERT MAIN TEXT HERE
+
+**Aims:**
+
+-   To understand the causes and consequences of body transformations in long distance migrants
+
+
+------------------------------------------------------------------------
+
