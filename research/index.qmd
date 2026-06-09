@@ -8,6 +8,8 @@ listing:
   fields: [image, title]
   grid-columns: 2
   image-height: 400px
+  grid-item-border: TRUE
+  grid-item-align: center
 page-layout: full
 css: styles.css
 ---

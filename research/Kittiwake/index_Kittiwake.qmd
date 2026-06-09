@@ -2,6 +2,7 @@
 title: "Understading offshore distributions of Black-legged Kittiwakes"
 image: ../../images/Kittiwake.jpg
 csl: ../../apa-cv.csl
+bibliography: ../../publications.bib
 suppress-bibliography: true
 link-citations: false
 citations-hover: false
@@ -10,7 +11,7 @@ order: 4
 
 **Aims:**
 
-Work in progress
+Part of our work on Kittiwakes centres around “Predicting Regional Vulnerability of Threatened Seabirds to Offshore Wind Energy Developments”. This involves examining the year-round habitat use of black-legged kittiwakes across the North Atlantic using geolocator data. The project aims to evaluate and refine existing methodologies used to assess and mitigate the ecological impacts of offshore wind energy developments. A further objective is to identify areas suitable for artificial nesting structures that could deliver net biodiversity gains for seabirds under future climate change scenarios.
 
 :::: {.callout-tip collapse="true" appearance="minimal"}
 ##### Key publications
@@ -23,4 +24,5 @@ Work in progress
 ::::: columns
 ::: {.column width="50%"}
 ![](../../images/Kittiwake.jpg)
+:::
 :::

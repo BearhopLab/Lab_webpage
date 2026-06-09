@@ -1,6 +1,6 @@
 ---
 title: "Understanding population declines in insectiverous birds"
-image: ../../images/RSPB logo2.png
+image: ../../images/House-Martin-in-flight.jpg
 csl: ../../apa-cv.csl
 suppress-bibliography: true
 link-citations: false
@@ -9,18 +9,19 @@ order: 3
 ---
 
  
-**Aims:**
+**Overview:**
 
-Work in progress
+This project is led by PhD student Kate Mighell and is in collaboration with Malcolm Burgess from the RSPB. The project focuses on assessing the impacts of insect declines on bird populations. This will include a global review on the impacts of insect abundance on bird populations as well as a more in-depth study on a declining UK aerial insectivore, the House Martin. The project will collect important monitoring data on House Martin populations at two sites in the UK to investigate how insects abundance changes are contributing to population demographics. This work will involve monitoring breeding metrics, sampling local insect populations and collecting faecal samples to perform dietary analyses using DNA metabarcoding.
 
 
-
-::: {.columns}
-::: {.column width="50%"}
-![](../../images/RSPB logo.jpg)
-:::
 
 ::: {.columns}
 ::: {.column width="50%"}
 ![](../../images/House-Martin-in-flight.jpg)
+:::
+
+
+::: {.column width="50%"}
+![](../../images/RSPB logo2.png)
+:::
 :::

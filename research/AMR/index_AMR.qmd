@@ -2,6 +2,7 @@
 title: "Antimicrobial Resistance gene dynamics in wild birds"
 image: ../../images/320.jpg
 csl: ../../apa-cv.csl
+bibliography: ../../publications.bib
 suppress-bibliography: true
 link-citations: false
 citations-hover: false

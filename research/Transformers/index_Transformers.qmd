@@ -1,6 +1,6 @@
 ---
 title: "The causes and consequences of body transformations in long distance migrants "
-image: ../../images/Organs_Pair.png
+image: ../../images/Brent_Organs_Flying.png
 csl: ../../apa-cv.csl
 suppress-bibliography: true
 link-citations: false
