@@ -62,3 +62,41 @@ citations-hover: false
 [@handby2022]
 
 ### 2021
+
+[@langley2021]
+
+[@doyle2021]
+
+[@lemosgonçalves2021]
+
+[@bell2021a]
+
+[@brakes2021]
+
+[@giménez2021]
+
+[@mills2020]
+
+[@bodey2020]
+
+[@clark2021]
+
+### 2020
+
+[@mills2020a]
+
+[@soriano-redondo2020]
+
+[@bodey2020a]
+
+[@doyle2020]
+
+[@bell2020]
+
+[@mcnicol2020]
+
+[@mcnicol2020]
+
+[@mills2020b]
+
+[@swan2019]

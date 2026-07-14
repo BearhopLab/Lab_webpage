@@ -15,13 +15,4 @@ This project is led by PhD student Kate Mighell and is in collaboration with Mal
 
 
 
-::: {.columns}
-::: {.column width="50%"}
-![](../../images/House-Martin-in-flight.jpg)
-:::
-
-
-::: {.column width="50%"}
-![](../../images/RSPB logo2.png)
-:::
-:::
+![](../../images/HouseMartinRSPB.jpg){fig-align="center" width="50%"}

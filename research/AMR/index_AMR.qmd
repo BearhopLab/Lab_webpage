@@ -1,19 +1,16 @@
 ---
 title: "Antimicrobial Resistance gene dynamics in wild birds"
-image: ../../images/320.jpg
+image: ../../images/BrentwithRings.jpg
 csl: ../../apa-cv.csl
 bibliography: ../../publications.bib
 suppress-bibliography: true
 link-citations: false
 citations-hover: false
-order: 2
+order: 4
 ---
 
-
-### Aims
-
-Work in progress
-
+### Overview
+This project aims to quantifying the causes and consequences of variation in antimicrobial resistance (AMR) transmission by migratory birds. The project will utilise individually-marked light-bellied Brent geese as a model system, understanding AMR dynamics across Ireland and Iceland. The aims of the project are to quantify i) the factors that shape individual resistome composition and dynamics; ii) the role of social interactions in shaping direct and indirect transmission of AMR and iii) the spatial scales at which migrants can spread AMR, including across different migratory stages. 
 
 ### Previous publications
 
@@ -26,12 +23,5 @@ Work in progress
 
 ::::
 
-::: {.columns}
-::: {.column width="50%"}
-![](../../images/320.jpg)
-:::
 
-::: {.column width="50%"}
-![](../../images/AMR-Network-Logo.jpg)
-:::
-:::
+![](../../images/BrentwithRings.jpg){fig-align="center" width="40%"} 

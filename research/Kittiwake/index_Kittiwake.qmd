@@ -6,7 +6,7 @@ bibliography: ../../publications.bib
 suppress-bibliography: true
 link-citations: false
 citations-hover: false
-order: 4
+order: 2
 ---
 
 **Aims:**
@@ -21,8 +21,4 @@ Part of our work on Kittiwakes centres around “Predicting Regional Vulnerabili
 :::
 ::::
 
-::::: columns
-::: {.column width="50%"}
-![](../../images/Kittiwake.jpg)
-:::
-:::
+![](../../images/Kittiwake.jpg){fig-align="center" width="50%"}
