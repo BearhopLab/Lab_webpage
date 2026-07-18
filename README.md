@@ -5,7 +5,7 @@ Access webpage here: https://bearhoplab.github.io/Lab_webpage/
 
 Some great inspiration taken from Alice Trevail's website: https://alicetrevail.github.io
 
-## Publising webiste
+## Publising website
 0. Before making any changes press the `Pull` button under the `Git` tab. This makes sure the repository is up to date and that you have downloaded any changes made by someone else.
 1. Make changes to the quarto documents in the repository locally, i.e. the version that is saved on your device, and save changes. 
 2. Now to build the website (turn the quarto docs into html) press the `Render Website` button under the `Build` tab.
