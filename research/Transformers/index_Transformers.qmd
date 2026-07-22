@@ -20,7 +20,11 @@ We will tackle the following broad questions:
 
 -   What are the consequences of individual variation in the timing and extent of the transformations between feeding and flying machines? 
 
+**Funding**
 
+-   Natural Environment Research Council (NERC)
+
+-   National Environmental Isotope Facility (NEIF)
 
 
 ::: {style="width:60%; margin-left:auto; margin-right:auto;"}
